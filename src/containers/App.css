@@ -1,0 +1,34 @@
+label {
+    display: block;
+}
+
+input:not([type=checkbox]),label,select{
+    margin: 5px 0;
+}
+
+select {
+    width: 300px;
+    display: block;
+}
+
+input[type="button"] {
+    display: block;
+}
+
+#result {
+    min-width: 500px;
+    width: calc(100% - 30px);
+    min-height: 300px;
+}
+input[type=checkbox]{
+    vertical-align: middle;
+}
+
+.menu{
+    display: flex;
+}
+
+.tests__areas{
+    display: flex;
+    flex-wrap: wrap;
+}
